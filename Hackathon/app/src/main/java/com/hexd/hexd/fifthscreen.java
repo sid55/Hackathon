@@ -1,6 +1,5 @@
 package com.hexd.hexd;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -9,14 +8,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
-import android.view.View.OnClickListener;
 
-public class fourthscreen extends AppCompatActivity {
+public class fifthscreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fourthscreen);
+        setContentView(R.layout.activity_fifthscreen);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -29,6 +27,7 @@ public class fourthscreen extends AppCompatActivity {
             }
         });
 
+
         Button btn8 = (Button)findViewById(R.id.button8);
         Button btn9 = (Button)findViewById(R.id.button9);
         Button btn10 = (Button)findViewById(R.id.button10);
@@ -36,39 +35,39 @@ public class fourthscreen extends AppCompatActivity {
         Button btn12 = (Button)findViewById(R.id.button12);
         Button btn13 = (Button)findViewById(R.id.button13);
 
-        OnClickListener onClick = new OnClickListener() {
+        View.OnClickListener onClick = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Button btn = (Button) v;
 
                 switch (btn.getId()){
                     case R.id.button8:
-                        Intent app = new Intent(fourthscreen.this,fifthscreen.class);
+                        Intent app = new Intent(fifthscreen.this,StatisticsMap.class);
                         startActivity(app);
                         break;
 
                     case R.id.button9:
-                        Intent app1 = new Intent(fourthscreen.this,sixthscreen.class);
+                        Intent app1 = new Intent(fifthscreen.this,StatisticsMap.class);
                         startActivity(app1);
                         break;
 
                     case R.id.button10:
-                        Intent app2 = new Intent(fourthscreen.this,gardener.class);
+                        Intent app2 = new Intent(fifthscreen.this,StatisticsMap.class);
                         startActivity(app2);
                         break;
 
                     case R.id.button11:
-                        Intent app3 = new Intent(fourthscreen.this,cleaner.class);
+                        Intent app3 = new Intent(fifthscreen.this,StatisticsMap.class);
                         startActivity(app3);
                         break;
 
                     case R.id.button12:
-                        Intent app4 = new Intent(fourthscreen.this,technician.class);
+                        Intent app4 = new Intent(fifthscreen.this,StatisticsMap.class);
                         startActivity(app4);
                         break;
 
                     case R.id.button13:
-                        Intent app5 = new Intent(fourthscreen.this,carpenter.class);
+                        Intent app5 = new Intent(fifthscreen.this,otherpage.class);
                         startActivity(app5);
                         break;
 
@@ -86,11 +85,6 @@ public class fourthscreen extends AppCompatActivity {
 
 
 
-
-
-
-    }
-
-
+}
 
 }
