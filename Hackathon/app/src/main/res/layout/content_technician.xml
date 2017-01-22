@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hexd.hexd.technician"
+    tools:showIn="@layout/activity_technician">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Other"
+        android:id="@+id/button13"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Diagnostics"
+        android:id="@+id/button12"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_above="@+id/button13"
+        android:layout_alignLeft="@+id/button13"
+        android:layout_alignStart="@+id/button13"
+        android:layout_marginBottom="11dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Software Issue"
+        android:id="@+id/button11"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_above="@+id/button12"
+        android:layout_alignLeft="@+id/button12"
+        android:layout_alignStart="@+id/button12"
+        android:layout_marginBottom="11dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Hardware Issue"
+        android:id="@+id/button10"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_above="@+id/button11"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Optimization"
+        android:id="@+id/button9"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_above="@+id/button10"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignStart="@+id/button10"
+        android:layout_marginBottom="11dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Security"
+        android:id="@+id/button8"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_above="@+id/button9"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9"
+        android:layout_marginBottom="11dp" />
+
+</RelativeLayout>

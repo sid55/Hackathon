@@ -56,15 +56,67 @@
         <activity
             android:name=".fourthscreen"
             android:label="@string/title_activity_fourthscreen"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+        <!--
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+            -->
+
+
+
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".fifthscreen"
+            android:label="@string/title_activity_fifthscreen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sixthscreen"
+            android:label="@string/title_activity_sixthscreen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".gardener"
+            android:label="@string/title_activity_gardener"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cleaner"
+            android:label="@string/title_activity_cleaner"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".technician"
+            android:label="@string/title_activity_technician"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".carpenter"
+            android:label="@string/title_activity_carpenter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StatisticsMap"
+            android:label="@string/title_activity_statistics_map"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".otherpage"
+            android:label="@string/title_activity_otherpage"
+            android:theme="@style/AppTheme.NoActionBar"></activity> <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
 
 
         <meta-data android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyC6UyDyTN72GeUJ9Oit01_4luwoS_izK1M"/>
-        <meta-data android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version"/>
-
-
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
+
+
 
 </manifest>

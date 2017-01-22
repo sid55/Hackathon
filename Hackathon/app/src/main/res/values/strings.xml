@@ -94,4 +94,13 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="title_activity_fourthscreen">fourthscreen</string>
+    <string name="title_activity_fifthactivity">fifthactivity</string>
+    <string name="title_activity_fifthscreen">fifthscreen</string>
+    <string name="title_activity_sixthscreen">sixthscreen</string>
+    <string name="title_activity_gardener">gardener</string>
+    <string name="title_activity_cleaner">cleaner</string>
+    <string name="title_activity_technician">technician</string>
+    <string name="title_activity_carpenter">carpenter</string>
+    <string name="title_activity_statistics_map">StatisticsMap</string>
+    <string name="title_activity_otherpage">otherpage</string>
 </resources>
