@@ -13,17 +13,6 @@
     tools:showIn="@layout/activity_fourthscreen">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Choose a Catergory!"
-        android:id="@+id/textView"
-        android:textColor="@android:color/holo_red_dark"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="36dp" />
-
     <RelativeLayout tools:context="com.hexd.hexd.fourthscreen"
         tools:showIn="@layout/activity_fourthscreen"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -41,132 +30,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="40dp">
 
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:text="Mechanical"
-            android:id="@+id/button8"
-            android:textColor="@android:color/holo_red_dark"
-            android:layout_alignParentTop="true"
-            android:layout_toLeftOf="@+id/imageView7"
-            android:layout_toStartOf="@+id/imageView7" />
-
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:text="Plumbing"
-            android:id="@+id/button9"
-            android:textColor="@android:color/holo_red_dark"
-            android:layout_below="@+id/button8"
-            android:layout_toLeftOf="@+id/imageView7"
-            android:layout_toStartOf="@+id/imageView7" />
-
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:text="Gardener"
-            android:id="@+id/button10"
-            android:textColor="@android:color/holo_red_dark"
-            android:layout_below="@+id/button9"
-            android:layout_toLeftOf="@+id/imageView8"
-            android:layout_toStartOf="@+id/imageView8" />
-
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:text="Cleaner"
-            android:id="@+id/button11"
-            android:textColor="@android:color/holo_red_dark"
-            android:layout_below="@+id/button10"
-            android:layout_toLeftOf="@+id/imageView8"
-            android:layout_toStartOf="@+id/imageView8" />
-
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:text="Technician"
-            android:id="@+id/button12"
-            android:textColor="@android:color/holo_red_dark"
-            android:layout_below="@+id/button11"
-            android:layout_toLeftOf="@+id/imageView8"
-            android:layout_toStartOf="@+id/imageView8" />
-
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:text="Carpenter"
-            android:id="@+id/button13"
-            android:textColor="@android:color/holo_red_dark"
-            android:layout_below="@+id/button12"
-            android:layout_alignLeft="@+id/button12"
-            android:layout_alignStart="@+id/button12" />
-
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView7"
-            android:src="@drawable/car"
-            android:maxHeight="10dp"
-            android:maxWidth="10dp"
-            android:layout_above="@+id/button9"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView8"
-            android:src="@drawable/plung"
-            android:maxHeight="10dp"
-            android:maxWidth="10dp"
-            android:layout_below="@+id/imageView7"
-            android:layout_toRightOf="@+id/button9"
-            android:layout_alignBottom="@+id/button9" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView9"
-            android:src="@drawable/rake"
-            android:maxHeight="10dp"
-            android:maxWidth="10dp"
-            android:layout_above="@+id/button11"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignTop="@+id/button10" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView10"
-            android:src="@drawable/clean1"
-            android:maxHeight="10dp"
-            android:maxWidth="10dp"
-            android:layout_below="@+id/button10"
-            android:layout_toRightOf="@+id/button10"
-            android:layout_above="@+id/button12" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView11"
-            android:src="@drawable/technician"
-            android:maxHeight="10dp"
-            android:maxWidth="10dp"
-            android:layout_above="@+id/button13"
-            android:layout_toRightOf="@+id/button12"
-            android:layout_below="@+id/imageView10"
-            android:layout_alignRight="@+id/imageView10"
-            android:layout_alignEnd="@+id/imageView10" />
-
-        <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="80px"
             android:layout_height="wrap_content"
             android:id="@+id/imageView12"
             android:src="@drawable/carp"
@@ -186,7 +51,152 @@
             android:textColor="@android:color/holo_red_dark"
             android:layout_above="@+id/button8"
             android:layout_centerHorizontal="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Mechanical"
+            android:id="@+id/button8"
+            android:textColor="@color/lilia"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/round_button"/>
+
+        <ImageView
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView7"
+            android:src="@drawable/car"
+            android:maxHeight="10dp"
+            android:maxWidth="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_above="@+id/button9" />
+
+        <ImageView
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView9"
+            android:src="@drawable/rake"
+            android:maxHeight="10dp"
+            android:maxWidth="10dp"
+            android:layout_below="@+id/imageView8"
+            android:layout_alignLeft="@+id/imageView7"
+            android:layout_alignStart="@+id/imageView7"
+            android:layout_above="@+id/button11" />
+
+        <ImageView
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView8"
+            android:src="@drawable/plung"
+            android:maxHeight="10dp"
+            android:maxWidth="10dp"
+            android:layout_below="@+id/imageView7"
+            android:layout_alignLeft="@+id/imageView9"
+            android:layout_alignStart="@+id/imageView9"
+            android:layout_above="@+id/button10" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Carpenter"
+            android:id="@+id/button13"
+            android:textColor="@color/lilia"
+            android:background="@drawable/round_button"
+            android:layout_below="@+id/button12"
+            android:layout_alignLeft="@+id/button12"
+            android:layout_alignStart="@+id/button12"
+            android:layout_marginTop="11dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Technician"
+            android:id="@+id/button12"
+            android:textColor="@color/lilia"
+            android:background="@drawable/round_button"
+            android:layout_below="@+id/button11"
+            android:layout_alignLeft="@+id/button11"
+            android:layout_alignStart="@+id/button11"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Cleaner"
+            android:id="@+id/button11"
+            android:textColor="@color/lilia"
+            android:background="@drawable/round_button"
+            android:layout_below="@+id/button10"
+            android:layout_alignLeft="@+id/button10"
+            android:layout_alignStart="@+id/button10"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Gardener"
+            android:id="@+id/button10"
+            android:textColor="@color/lilia"
+            android:background="@drawable/round_button"
+            android:layout_below="@+id/button9"
+            android:layout_alignLeft="@+id/button9"
+            android:layout_alignStart="@+id/button9"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Plumbing"
+            android:id="@+id/button9"
+            android:textColor="@color/lilia"
+            android:background="@drawable/round_button"
+            android:layout_below="@+id/button8"
+            android:layout_alignLeft="@+id/button8"
+            android:layout_alignStart="@+id/button8"
+            android:layout_marginTop="13dp" />
+
+        <ImageView
+            android:layout_width="80px"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView11"
+            android:src="@drawable/technician"
+            android:maxHeight="10dp"
+            android:maxWidth="10dp"
+            android:layout_alignLeft="@+id/imageView9"
+            android:layout_alignStart="@+id/imageView9"
+            android:layout_alignTop="@+id/button12"
+            android:layout_above="@+id/button13" />
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clean2"
+            android:id="@+id/imageView2"
+            android:layout_alignLeft="@+id/imageView9"
+            android:layout_alignStart="@+id/imageView9"
+            android:layout_alignTop="@+id/button11"
+            android:layout_above="@+id/button12" />
     </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Choose a Category"
+        android:id="@+id/textView"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

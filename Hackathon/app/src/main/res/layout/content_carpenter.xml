@@ -16,34 +16,14 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="130dp"
         android:layout_height="wrap_content"
-        android:text="Roof and Siding"
-        android:id="@+id/button8"
-        android:textColor="@android:color/holo_red_dark"
-        android:layout_alignParentTop="true"
-        android:layout_toLeftOf="@+id/imageView7"
-        android:layout_toStartOf="@+id/imageView7" />
-
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:text="Pest infestations"
-        android:id="@+id/button9"
-        android:textColor="@android:color/holo_red_dark"
-        android:layout_below="@+id/button8"
-        android:layout_toLeftOf="@+id/imageView7"
-        android:layout_toStartOf="@+id/imageView7" />
-
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:text="Cracks"
-        android:id="@+id/button10"
-        android:textColor="@android:color/holo_red_dark"
-        android:layout_below="@+id/button9"
-        android:layout_toLeftOf="@+id/imageView8"
-        android:layout_toStartOf="@+id/imageView8" />
+        android:text="Other"
+        android:id="@+id/button13"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/button12"
+        android:layout_alignLeft="@+id/button12"
+        android:layout_alignStart="@+id/button12" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -51,10 +31,11 @@
         android:layout_height="wrap_content"
         android:text="Flooring"
         android:id="@+id/button11"
-        android:textColor="@android:color/holo_red_dark"
-        android:layout_below="@+id/button10"
-        android:layout_toLeftOf="@+id/imageView8"
-        android:layout_toStartOf="@+id/imageView8" />
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignStart="@+id/button10" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -62,20 +43,49 @@
         android:layout_height="wrap_content"
         android:text="Counters"
         android:id="@+id/button12"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="11dp"
         android:layout_below="@+id/button11"
-        android:layout_toLeftOf="@+id/imageView8"
-        android:layout_toStartOf="@+id/imageView8" />
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="130dp"
         android:layout_height="wrap_content"
-        android:text="Other"
-        android:id="@+id/button13"
-        android:textColor="@android:color/holo_red_dark"
-        android:layout_below="@+id/button12"
-        android:layout_alignLeft="@+id/button12"
-        android:layout_alignStart="@+id/button12" />
+        android:text="Cracks"
+        android:id="@+id/button10"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_above="@+id/button11"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Pest infestations"
+        android:id="@+id/button9"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_above="@+id/button10"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8"
+        android:layout_marginBottom="11dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Roof and Siding"
+        android:id="@+id/button8"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_above="@+id/button9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
 
 </RelativeLayout>

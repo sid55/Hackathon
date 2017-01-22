@@ -12,60 +12,6 @@
     tools:context="com.hexd.hexd.fifthscreen"
     tools:showIn="@layout/activity_fifthscreen">
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:text="Flat Tire"
-        android:id="@+id/button8"
-        android:textColor="@android:color/holo_red_dark"
-        android:layout_alignParentTop="true"
-        android:layout_toLeftOf="@+id/imageView7"
-        android:layout_toStartOf="@+id/imageView7" />
-
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:text="Dead Battery"
-        android:id="@+id/button9"
-        android:textColor="@android:color/holo_red_dark"
-        android:layout_below="@+id/button8"
-        android:layout_toLeftOf="@+id/imageView7"
-        android:layout_toStartOf="@+id/imageView7" />
-
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:text="Oil Change"
-        android:id="@+id/button10"
-        android:textColor="@android:color/holo_red_dark"
-        android:layout_below="@+id/button9"
-        android:layout_toLeftOf="@+id/imageView8"
-        android:layout_toStartOf="@+id/imageView8" />
-
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:text="Brake Issue"
-        android:id="@+id/button11"
-        android:textColor="@android:color/holo_red_dark"
-        android:layout_below="@+id/button10"
-        android:layout_toLeftOf="@+id/imageView8"
-        android:layout_toStartOf="@+id/imageView8" />
-
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:text="Car Dents"
-        android:id="@+id/button12"
-        android:textColor="@android:color/holo_red_dark"
-        android:layout_below="@+id/button11"
-        android:layout_toLeftOf="@+id/imageView8"
-        android:layout_toStartOf="@+id/imageView8" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -73,9 +19,75 @@
         android:layout_height="wrap_content"
         android:text="Other"
         android:id="@+id/button13"
-        android:textColor="@android:color/holo_red_dark"
-        android:layout_below="@+id/button12"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_marginBottom="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Car Dents"
+        android:id="@+id/button12"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_above="@+id/button13"
+        android:layout_alignLeft="@+id/button13"
+        android:layout_alignStart="@+id/button13"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Brake Issue"
+        android:id="@+id/button11"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_above="@+id/button12"
         android:layout_alignLeft="@+id/button12"
-        android:layout_alignStart="@+id/button12" />
+        android:layout_alignStart="@+id/button12"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Oil Change"
+        android:id="@+id/button10"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_above="@+id/button11"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Dead Battery"
+        android:id="@+id/button9"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_above="@+id/button10"
+        android:layout_alignLeft="@+id/button10"
+        android:layout_alignStart="@+id/button10"
+        android:layout_marginBottom="11dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Flat Tire"
+        android:id="@+id/button8"
+        android:textColor="@color/lilia"
+        android:background="@drawable/round_button"
+        android:layout_above="@+id/button9"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9"
+        android:layout_marginBottom="12dp" />
 
 </RelativeLayout>
