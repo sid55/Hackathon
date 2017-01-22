@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "328179934755",
+    "project_id": "tether-c2a09"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328179934755:android:98cd603c8e5d7c20",
+        "android_client_info": {
+          "package_name": "com.hexd.hexd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328179934755-mk0clame5a37lhu0ndmr3suis58ju0vk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hexd.hexd",
+            "certificate_hash": "F7132030DE398540647DD7AFB7A12B6809314048"
+          }
+        },
+        {
+          "client_id": "328179934755-1vk73mfdpnf9k07vaoesl9eju9cgdkmp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6UyDyTN72GeUJ9Oit01_4luwoS_izK1M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

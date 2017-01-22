@@ -10,6 +10,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ProgressBar;
 
+import com.firebase.ui.auth.AuthUI;
+import com.google.firebase.auth.FirebaseAuth;
+
 /**
  * Created by Sidharth on 12/23/2015.
  */
@@ -40,6 +43,8 @@ public class FragmentThree extends Fragment {
 
             }
         }).start();
+
+
 
         return view;
     }

@@ -19,11 +19,29 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.support.v4.*;
 
+import android.content.Intent;
+import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+
+import com.firebase.ui.auth.AuthUI;
+import com.firebase.ui.auth.ui.email.SignInActivity;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
+
 public class MainActivity extends FragmentActivity {
 
     private static Button button_sbm;
     ViewPager viewpager;
     PagerAdapter padapter;
+
+
+    private static final int SIGN_IN =0;
+    private FirebaseAuth auth;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +50,32 @@ public class MainActivity extends FragmentActivity {
         viewpager = (ViewPager)findViewById(R.id.pager);
         padapter = new PagerAdapter(getSupportFragmentManager());
         viewpager.setAdapter(padapter);
+
+        //firebase auth
+        auth = FirebaseAuth.getInstance();
+        if (auth.getCurrentUser() != null){
+            // user signed in
+        }
+        else{
+            startActivityForResult(AuthUI.getInstance().createSignInIntentBuilder().setProviders(AuthUI.EMAIL_PROVIDER,AuthUI.FACEBOOK_PROVIDER,AuthUI.GOOGLE_PROVIDER).build(),SIGN_IN);
+        }
+
+    }
+
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == SIGN_IN){
+            if(resultCode == RESULT_OK){
+                // user has logged in
+                Log.d("AUTH", auth.getCurrentUser().getEmail());
+            }
+            else{
+                // user not authenticated
+                Log.d("AUTH", "Not Authenticated");
+            }
+        }
     }
 
     /*

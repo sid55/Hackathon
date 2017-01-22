@@ -27,6 +27,14 @@ public class MainActivity3 extends FragmentActivity {
         setContentView(R.layout.content_main3);
     }
 
+
+
+
+
+
+
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

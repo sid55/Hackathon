@@ -16,13 +16,14 @@ public class PagerAdapter extends FragmentPagerAdapter{
 
     @Override
     public Fragment getItem(int arg0) {
-        switch(arg0){
-            case 0:
-                return new FragmentOne();
-            case 1:
-                return new FragmentTwo();
-            case 2:
-                return new FragmentThree();
+        while (arg0 == 0) {
+            return new FragmentOne();
+        }
+        while (arg0 == 1) {
+            return new FragmentTwo();
+        }
+        while (arg0 == 2) {
+            return new FragmentThree();
         }
         return null;
     }
